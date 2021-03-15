@@ -1,0 +1,312 @@
+{{ define "main" }}
+<style>
+.app-header {
+    background-size: 100%;
+    background-position: center 35%;
+    filter: grayscale(50%);
+    padding-top: 50px;
+    min-height: 200px;
+    background-image:
+    linear-gradient(to bottom, rgba(20, 20, 20, 0.616), rgba(3, 3, 3, 0.73)),
+    url('/images/team.jpg');
+    opacity: 0.8;
+    border-width: 10px;
+    border-bottom-width:10px;
+    border-bottom-color:gray;
+    border-bottom-style: solid;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.journal {
+  color : #A9262C !important;
+}
+.blue-text{
+    color: #2693ff !important;
+}
+/* Timeline holder */
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+/* Timeline vertical line */
+ul.timeline:before {
+  content: ' ';
+  background: #2693ff;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  width: 4px;
+  height: 100%;
+  z-index: 400;
+  border-radius: 1rem;
+}
+
+li.timeline-item {
+  margin: 20px 0;
+}
+.ml-3,
+.mx-3 {
+  margin-left: 1rem !important;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+/* Timeline item arrow */
+.timeline-arrow {
+  border-top: 0.5rem solid transparent;
+  border-right: 0.5rem solid #2693ff;
+  border-bottom: 0.5rem solid transparent;
+  display: block;
+  position: absolute;
+  left: 2rem;
+}
+#_awards p {
+  margin-top: -2px;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+/* Timeline item circle marker */
+li.timeline-item::before {
+  content: ' ';
+  background: #ddd;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  left: 11px;
+  width: 14px;
+  height: 14px;
+  z-index: 400;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+</style>
+<section class="app-header">
+  <div class="main-content">
+    <h1 style="line-height: initial;">Meet The Team</h1>
+    <p>
+        brainlife.io is developed by an open community of scientists and a group of dedicated trainees and <br>professional
+        software engineers.
+    </p>
+  </div>
+</section>
+
+<section class="main-content">
+  <center>
+    <h1 style="margin: 50px;">Project Members</h1>
+    <p style="margin: 50px;">The following individuals are actively contributing to the brainlife.io project.</p>
+    </center>
+    <div class="bootstrap-wrapper">
+      <div class="container">
+      <div class="row layout-table">
+        {{ range .Pages  }}
+        {{ if in .Params.tags "pi" }}
+        <div class="col-md-5 contact">
+          <div style="margin : 0 auto;">
+          <img src="{{.Params.image}}" style="width: 200px"><br>
+          <a>{{.Title}}</a><br>
+          <span class="title">{{.Params.position}}</span>
+          </div>
+        </div>
+        <div class="col-md-7">
+         <p class="center-onmobile"> {{.Params.description}}</p>
+        </div>
+        {{ end }}
+        {{end}}
+      </div>
+      </div>
+    </div>
+  <!-- <table class="layout-table">
+  {{ range .Pages }}
+          {{ if in .Params.tags "pi" }}
+          <tr>
+            <td width="40%" class="contact">
+              <img src="{{.Params.image}}" style="width: 200px;height:200px"><br>
+              <a>{{.Title}}</a><br>
+              <span class="title">{{.Params.position}}</span>
+            </td>
+            <td width="60%">
+              <p> {{.Params.description}} </p>
+            </td>
+          </tr>
+          {{ end }}
+  {{end}}
+  </table> -->
+  <br>
+  <br>
+  <div class="colorback" style="background-color: #2693ff">
+        <center>
+          <!-- <p style="margin: 0;">The following individuals are actively contributing to the brainlife.io project.</p> -->
+        </center>
+        <div class="bootstrap-wrapper">
+          <div class="container">
+          <div class="row layout-table">
+            {{ range .Pages }}
+            {{ if in .Params.tags "active" }}
+            <div class="col-md-5 contact">
+              <div style="margin : 0 auto;">
+              <img src="{{.Params.image}}" style="width: 200px"><br>
+              <a>{{.Title}}</a><br>
+              <span class="title">{{.Params.position}}</span>
+              </div>
+            </div>
+            <div class="col-md-7">
+             <p class="center-onmobile"> {{.Params.description}}</p>
+            </div>
+            {{ end }}
+            {{end}}
+          </div>
+          </div>
+        </div>
+     
+  </div>
+  <!-- <div style="margin-top: 6rem; ">
+    <h1>
+      <center>
+        <p style="font-size: 150%;">
+          <i class="fas fa-key"></i>
+        </p>
+        Co-PIs
+      </center>
+    </h1>
+    <br>
+    <br>
+    <div class="container">
+      <div class="row row-cols-1 layout-table"> -->
+        <!-- {{ range .Pages }}
+      {{ if in .Params.tags "copi" }}
+        <div class="col">
+            <h3><b><a >{{.Title}}</a></b></h3>
+            <p>{{.Params.position}}</p>
+          </div>
+          
+    </div>
+    {{end}}    
+    {{end}} -->
+
+        <!-- <div class="gallery">
+          <ul style=" display: flex;
+      flex-flow: row wrap;
+      list-style: none;
+      margin: 32px 0;">
+            {{range .Pages}}
+            {{if in .Params.tags "copi"}}
+            <li style=" margin: 0 10px;
+          flex-basis: calc(50% - 20px);">
+              <h3><b>{{.Title}}</b></h3>
+              <p> {{.Params.position}}</p>
+            </li>
+            {{end}}
+            {{end}}
+          </ul>
+        </div>
+      </div>
+    </div> -->
+    <div class="colorback" style="background-color: #fff">
+      <center>
+       <h1 style="color : #159957">Collaborators</h1>
+       <p style="color : #444 !important">Many thanks to all brainlife.io collaborators!</p>
+     </center>
+
+     <br>
+   <div class="bootstrap-wrapper">
+     <div class="container">
+       <div class="row"> 
+         {{range .Pages}}
+         {{if in .Params.tags "collaborators"}}
+           <div class="col-md-4 col-sm-4 col-xs-4 contact">
+             <img src='{{.Params.image}}'><br>
+           <a style="color: #159957;;">{{.Title}}</a><br>
+           <span class="title" style="color:#444;"> {{.Params.position}}</span><br>
+           <span class="location" style="color:#444;">{{.Params.location}}</span><br>
+           </div>
+           {{end}}
+         {{end}}
+       </div>
+   </div>
+   </div>
+   </div>
+
+
+
+
+    <div class="colorback" style="background-color: #159957">
+       <center>
+        <h1>Contributors</h1>
+        <p>Many thanks to all brainlife.io Contributors!</p>
+      </center>
+
+      <br>
+    <div class="bootstrap-wrapper">
+      <div class="container">
+        <div class="row"> 
+          {{range .Pages}}
+          {{if in .Params.tags "contributor"}}
+            <div class="col-md-4 col-sm-4 col-xs-4 contact">
+              <img src='{{.Params.image}}'><br>
+            <a>{{.Title}}</a><br>
+            <span class="title"> {{.Params.position}}</span><br>
+            <span class="location">{{.Params.location}}</span><br>
+            </div>
+            {{end}}
+          {{end}}
+        </div>
+    </div>
+    </div>
+    </div>
+
+   
+
+
+    
+    <div>
+      <br>
+      <br>
+      <br>
+      <center>
+        <h1>Alumni</h1>
+      </center>
+      <br>
+      <table class="layout-table">
+        {{ range .Pages }}
+        {{ if in .Params.tags "alumni" }}
+        <tr>
+          <td width="40%" class="contact">
+            <img class="alumni-img" src="{{.Params.image}}"><br>
+            <a>{{.Title}}</a><br>
+            <span class="title">{{.Params.position}}</span>
+          </td>
+          <td width="60%">
+            <p> {{.Params.description}} </p>
+          </td>
+        </tr>
+        {{ end }}
+        {{ end }}
+
+      </table>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/tinysort/3.2.5/tinysort.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous"></script>
+
+
+
+
+
+
+    {{end}}
