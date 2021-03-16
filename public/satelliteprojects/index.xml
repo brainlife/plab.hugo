@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satelliteprojects on PESTILLI LAB</title>
+    <link>http://example.org/satelliteprojects/</link>
+    <description>Recent content in Satelliteprojects on PESTILLI LAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/satelliteprojects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BD Hubs: Collaborative Proposal: Midwest: Midwest Big Data Hub: Building Communities to Harness the Data Revolution</title>
+      <link>http://example.org/satelliteprojects/1916518/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/1916518/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BD Spokes: SPOKE: MIDWEST: Collaborative: Advanced Computational Neuroscience Network (ACNN)</title>
+      <link>http://example.org/satelliteprojects/1636893/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/1636893/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaborative Proposal: CRCNS US-German Data Sharing Proposal: DataLad - a decentralized system for integrated discovery, management, and publication of digital objects of science</title>
+      <link>http://example.org/satelliteprojects/1912270/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/1912270/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Creating earlier predictions for delayed recovery from sports concussions</title>
+      <link>http://example.org/satelliteprojects/dod_25_sep/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/dod_25_sep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Democratize Neuroscience Education via Open Data and Cloud Technology</title>
+      <link>http://example.org/satelliteprojects/midwest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/midwest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harnessing machine learning and cloud computing to test biological models of the role of white matter in human learning</title>
+      <link>http://example.org/satelliteprojects/2004877/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/2004877/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating brainlife.io into the CIMEC community</title>
+      <link>http://example.org/satelliteprojects/sgcicd_jan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/sgcicd_jan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NCS-FO: Connectome mapping algorithms with application to community services for big data neuroscience</title>
+      <link>http://example.org/satelliteprojects/1734853/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/satelliteprojects/1734853/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

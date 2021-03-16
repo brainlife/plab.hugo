@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pi on PESTILLI LAB</title>
+    <link>http://example.org/tags/pi/</link>
+    <description>Recent content in pi on PESTILLI LAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jan 2021 17:32:40 +0000</lastBuildDate><atom:link href="http://example.org/tags/pi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Franco Pestilli</title>
+      <link>http://example.org/team/franco/</link>
+      <pubDate>Wed, 20 Jan 2021 00:40:57 +0000</pubDate>
+      
+      <guid>http://example.org/team/franco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soichi Hayashi</title>
+      <link>http://example.org/team/soichi/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/team/soichi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

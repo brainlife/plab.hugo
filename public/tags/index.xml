@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on PESTILLI LAB</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on PESTILLI LAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Jan 2021 17:32:40 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>active</title>
+      <link>http://example.org/tags/active/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/active/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alumni</title>
+      <link>http://example.org/tags/alumni/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/alumni/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contributor</title>
+      <link>http://example.org/tags/contributor/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/contributor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contributors</title>
+      <link>http://example.org/tags/contributors/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/contributors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pi</title>
+      <link>http://example.org/tags/pi/</link>
+      <pubDate>Mon, 25 Jan 2021 17:32:40 +0000</pubDate>
+      
+      <guid>http://example.org/tags/pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>collaborators</title>
+      <link>http://example.org/tags/collaborators/</link>
+      <pubDate>Wed, 20 Jan 2021 15:34:19 +0000</pubDate>
+      
+      <guid>http://example.org/tags/collaborators/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

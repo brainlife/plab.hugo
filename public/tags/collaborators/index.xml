@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaborators on PESTILLI LAB</title>
+    <link>http://example.org/tags/collaborators/</link>
+    <description>Recent content in collaborators on PESTILLI LAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Jan 2021 15:34:19 +0000</lastBuildDate><atom:link href="http://example.org/tags/collaborators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Michael Hanke</title>
+      <link>http://example.org/team/michaelhanke/</link>
+      <pubDate>Wed, 20 Jan 2021 15:34:19 +0000</pubDate>
+      
+      <guid>http://example.org/team/michaelhanke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paolo Avesani</title>
+      <link>http://example.org/team/paolo/</link>
+      <pubDate>Wed, 20 Jan 2021 15:34:19 +0000</pubDate>
+      
+      <guid>http://example.org/team/paolo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yaroslav O. Halchenko</title>
+      <link>http://example.org/team/yaroslav/</link>
+      <pubDate>Wed, 20 Jan 2021 15:34:19 +0000</pubDate>
+      
+      <guid>http://example.org/team/yaroslav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lei Wang</title>
+      <link>http://example.org/team/lei/</link>
+      <pubDate>Wed, 20 Jan 2021 14:46:26 +0000</pubDate>
+      
+      <guid>http://example.org/team/lei/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
